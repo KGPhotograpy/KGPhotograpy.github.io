@@ -19,18 +19,20 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-<!-- or -->
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer|Raleway" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
     <title>Greaves Photography</title>
   </head>
   <body onload="start()">
+<div  id="header">
+  <img id="headerimg"src="headerimg.jpg"</img>
+  <div id="title">
+      <p style="">Greaves Photography</p>
+        <i style=""  class="fa fa-camera-retro" aria-hidden="true"></i>
+  </div>
+</div>
 
-    <img id="header" src="headerimg.jpg"</img>
-    <div id="title">
-        <p>Greaves Photography</p>
-          <i class="fa fa-camera-retro" aria-hidden="true"></i>
-    </div>
+
       <div id="main">
         <div class="container" style="padding:5%;">
           <div class="card">
@@ -41,10 +43,9 @@
         </div>
 
 
-
+<section id="photos">
         <ul class="first">
-          <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>>
-            <div class="grid-item">
+
 
 
 
@@ -54,66 +55,60 @@
            </li>
 
 
-           </div>
-             <div class="grid-item">
            <li>
                <img class="img-responsive"  src="globe.jpg">
            </li>
-         </div>
 
-             <div class="grid-item">
+
            <li>
                <img  class="img-responsive"  src="flushing.JPG">
            </li>
-         </div>
 
-             <div class="grid-item">
+
            <li>
                <img  class="img-responsive"  src="flushingDown.JPG">
            </li>
-         </div>
 
-             <div class="grid-item">
+
+
 
            <li>
                <img class="img-responsive"   src="911towers.JPG">
            </li>
-         </div>
 
-             <div class="grid-item">
+
            <li>
                <img  class="img-responsive"  src="beachshot.JPG">
            </li>
-         </div>
 
-             <div class="grid-item">
+
+
            <li>
                <img  class="img-responsive"  src="carnvel.JPG">
            </li>
-         </div>
 
-             <div class="grid-item">
+
+
            <li>
                <img class="img-responsive"   src="flushingdown.JPG">
            </li>
-         </div>
 
-             <div class="grid-item">
            <li>
                <img   class="img-responsive" src="sunset.JPG">
            </li>
-         </div>
 
-             <div class="grid-item">
+
+
            <li>
                <img class="img-responsive"  src="tower.JPG">
            </li>
-         </div>
+
 
 
        </ul>
       </div>
     </div>
+  </div>
 
   </body>
 </html>
