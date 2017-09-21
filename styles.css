@@ -3,7 +3,12 @@ body{
   width: 100%;
 }
 #header{
-
+    background-image: url("headerimg.jpg");
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
    display: block;
    margin: auto;
 
@@ -27,7 +32,11 @@ $base-font-size: 200em;
 @media #{$mq-xlarge} {
  font-size: $base-font-size*1.4;
 }
-
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
 @media #{$mq-xxlarge} {
  font-size: $base-font-size*1.6;
 }
@@ -56,7 +65,25 @@ ul {
 
 }
 li{
+    padding-left: 0;
+    padding-right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    list-style-type: none;
 
+
+}
+#test{
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+
+    min-width: 100%;
+    min-height: 100%;
 
 }
 
