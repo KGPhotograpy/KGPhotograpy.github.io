@@ -1,5 +1,6 @@
 body{
   font-family: 'Comfortaa', cursive;
+  width: 100%;
 }
 #header{
 
@@ -51,7 +52,7 @@ font-family: 'Raleway', sans-serif;
 ul {
   list-style-type: none;
 
-    width:100%;
+
 
 }
 li{
@@ -71,12 +72,13 @@ li{
   /* Prevent vertical gaps */
   line-height: 0;
   width: 100%
-  -webkit-column-count: 5;
+  -webkit-column-count: 3;
   -webkit-column-gap:   0px;
-  -moz-column-count:    5;
+  -moz-column-count:    3;
   -moz-column-gap:      0px;
   column-count:         3;
   column-gap:           0px;
+  
 }
 
 #photos img {
