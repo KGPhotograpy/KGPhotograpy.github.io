@@ -3,7 +3,7 @@ body{
   width: 100%;
 }
 #header{
-    background-image: url("headerimg.jpg");
+    background-image: url("headerimg-min.jpg");
     height:100%;
     background-attachment: fixed;
     background-position: center;
@@ -105,7 +105,7 @@ img{
   -moz-column-gap:      0px;
   column-count:         3;
   column-gap:           0px;
-  
+
 }
 
 #photos img {
