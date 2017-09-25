@@ -13,8 +13,7 @@ var src ="https://firebasestorage.googleapis.com/v0/b/brigade-929f9.appspot.com/
     };
     downloadingImage.src = "https://firebasestorage.googleapis.com/v0/b/brigade-929f9.appspot.com/o/headerimg.jpg?alt=media&token=880fe805-1914-40e2-9641-2223fbc92736";
 
-$("#header").attr('style','max-width:'+$(window).width()+'px;height:'+$(window).height() +'px;  background-image: url("https://firebasestorage.googleapis.com/v0/b/brigade-929f9.appspot.com/o/headerimg.jpg?alt=media&token=880fe805-1914-40e2-9641-2223fbc92736")');
-
+$("#header").attr('style','max-width:'+$(window).width()+'px;height:'+$(window).height() +'px;');
 
 }
 $(document).ready(function () {
